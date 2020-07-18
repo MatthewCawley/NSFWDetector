@@ -19,7 +19,7 @@ let package = Package(
             name: "NSFWDetector",
             dependencies: []),
         .testTarget(
-            name: "NSFWDetector",
+            name: "NSFWDetectorTest",
             dependencies: ["NSFWDetector"]),
     ]
 )
