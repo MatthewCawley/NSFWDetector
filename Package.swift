@@ -17,6 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "NSFWDetector",
+            path: ".",
+            sources: ["NSFWDetector"]
             dependencies: []),
         .testTarget(
             name: "NSFWDetectorTest",
